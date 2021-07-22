@@ -1,7 +1,7 @@
 from PIL import Image
 from PIL import ImageEnhance
 
-image_file = input("Enter the name of the Image to be manipulated: ")
+image_file = input("Enter the name of the Image: ")
 p = -1
 while(p == -1):
     case = input("Enter Your Choice:\n 'a': Load Image\n 'b': Resize Image\n 'c': Crop Image\n 'd': Rotate/Flip Image\n 'e': Change Mode\n 'f': Enhance Image\n 'g': Exit\n \n")
