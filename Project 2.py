@@ -3,7 +3,7 @@ import cv2
 import pytesseract
   
 # Mention the installed location of Tesseract-OCR in your system
-pytesseract.pytesseract.tesseract_cmd = r"C:\Users\marga\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"\Tesseract-OCR\tesseract.exe"
 
 # Input image name
 image_file = input("Enter the name of the Image: ")
@@ -34,7 +34,7 @@ while(p == -1):
     im2 = img.copy()
       
     # A text file is created and flushed
-    file = open("extracted.txt", "w+")
+    file = open("ExtractedText.txt", "w+")
     file.write("")
     file.close()
       
